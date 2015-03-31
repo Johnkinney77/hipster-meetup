@@ -1,8 +1,7 @@
 #Hipster Meetup Read Me
-###Features
-> User Features
+###User Features
 
-User can display upcoming event
+**User can display upcoming event**
 ```bash
 event
 'Upcoming Meetup:
@@ -13,12 +12,12 @@ Location: Turkey Town, USA
 '
 ```
 
-User can get headcount
+**User can get headcount**
 ```bash
 headcount
 '34 people are going'
 ```
-User can RSVP
+**User can RSVP**
 ```bash
 RSVP `First Name` `Last Name` `Email`
 `Thank you John, we are looking forward to seeing you there`
@@ -31,7 +30,7 @@ RSVP `First Name` `Last Name` `Email`
 
 ---
 
-> Admin Features
+###Admin Features
 
 **Admin can create new events**
 ```bash
