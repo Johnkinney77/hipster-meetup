@@ -1,6 +1,8 @@
 #Hipster Meetup Read Me
 ###User Features
 
+Please separate each element with a '|' in order to support multi word event names and locations.
+
 **User can display upcoming event**
 ```bash
 event
@@ -19,7 +21,7 @@ headcount
 ```
 **User can RSVP**
 ```bash
-RSVP `First Name` `Last Name` `Email`
+RSVP|First Name|Last Name|Email
 `Thank you John, we are looking forward to seeing you there`
 ```
 `First name` would be the Users first name
@@ -32,12 +34,15 @@ RSVP `First Name` `Last Name` `Email`
 
 ###Admin Features
 
+Please separate each element with a '|' in order to support multi word event names and locations.
+
+>Your Admin Username: **1** Password: **1**
+
 **Admin can create new events**
 ```bash
-`username` `password` `create` `name` `date` `start time` `end time` `location`
+username|password|create|name|date|start time|end time|location
 
 ```
-Please use '' around each element in order to support multi word event names and locations.
 
 `username` is the username we provide you
 
@@ -47,19 +52,19 @@ Please use '' around each element in order to support multi word event names and
 
 `name` is the name of the event
 
-`start time` is the start time of the event
+`start time` is the start time of the event please include PM or AM
 
-`end time` is the end time of the event
+`end time` is the end time of the event please include PM or AM
 
 `location` is the location of the event, please include entire address e.g. `2 fake rode, faux town, FalSA, 11722`
 
 **Admin can see who is going**
 ```bash
-`username` `password` `attending`
+username|password|attending
 `John Kinney johnkinney77@gmail.com,
 Gabby Losch glosch00@gmail.com`
 ```
 **Admin can clear previous event**
 ```bash
-`username` `password` `clear`
+username|password|clear
 ```
