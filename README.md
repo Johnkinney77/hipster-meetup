@@ -10,8 +10,7 @@ event
 Event: The Beards Coding Convention,
 Date: 4/12/15,
 Time: 12:00 PM - 4:00 PM,
-Location: Turkey Town, USA
-'
+Location: Turkey Town, USA'
 ```
 
 **User can get headcount**
