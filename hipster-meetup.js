@@ -50,7 +50,7 @@ server.on('connection', function(client){
 				} else {
 					client.write("\nThe people who are attending are:\n")
 					jsonEdit.rsvp.forEach(function(attendee){
-						client.write(attendee.fullName + " - " + attendee.email)
+						client.write(attendee.fullName + " - " + attendee.email + "\n")
 					});
 				}
 				break;
